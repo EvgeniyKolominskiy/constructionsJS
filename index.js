@@ -355,6 +355,17 @@ if (day > 0 && day < 11) {
 
 /*Task 3 switch-case*/
 
+const month = 2;
+
+if (month === 12 || (month > 0 && month <= 2)) {
+	console.log('зима');
+} else if (month > 2 && month <= 5) {
+	console.log('весна');
+} else if (month > 5 && month <= 8) {
+	console.log('лето');
+} else if (month > 8 && month <= 11) {
+	console.log('осень');
+}
 
 /*Task 4 switch-case*/
 
