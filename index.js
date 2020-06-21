@@ -158,3 +158,20 @@ console.log(equalToTest(3));
 
 /*Task 8 if-else*/
 
+/**
+ *
+ * @param a
+ * @returns {boolean}
+ */
+
+function equalToOne(a) {
+	if (a === '1') {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+console.log(equalToOne('1'));
+console.log(equalToOne(1));
+console.log(equalToOne(3));
