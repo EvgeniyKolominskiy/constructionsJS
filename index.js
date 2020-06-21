@@ -118,6 +118,23 @@ console.log(lessOrEqualToZero(-3));
 
 /*Task 6 if-else*/
 
+/**
+ *
+ * @param a
+ * @returns {boolean}
+ */
+
+function notEqualToZero(a) {
+	if (a === 0) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+console.log(notEqualToZero(1));
+console.log(notEqualToZero(0));
+console.log(notEqualToZero(-3));
 
 /*Task 7 if-else*/
 
