@@ -175,3 +175,26 @@ function equalToOne(a) {
 console.log(equalToOne('1'));
 console.log(equalToOne(1));
 console.log(equalToOne(3));
+
+/*Работа с логическими переменными
+1.Если переменная test равна true, то выведите 'Верно', иначе выведите 'Неверно'. Проверьте работу скрипта при test,равном true, false. Напишите два варианта скрипта - с короткой записью и с длинной.
+2 Если переменная test не равна true, то выведите 'Верно', иначе выведите 'Неверно'. Проверьте работу скрипта при
+ test, равном true, false. Напишите два варианта скрипта - с короткой записью и с длинной.
+*/
+
+/*Task 1 boolean variables*/
+
+let test = true;
+
+if (test === true) {
+	alert(true);
+} else {
+	alert(false);
+}
+
+test = false;
+
+if (test === true)
+	alert(true);
+else
+	alert(false);
