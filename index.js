@@ -245,3 +245,28 @@ console.log(ZeroFive(5));
 console.log(ZeroFive(0));
 console.log(ZeroFive(-3));
 console.log(ZeroFive(2));
+
+/*Task 2 && ||*/
+
+/**
+ *
+ * @param a
+ * @returns {number}
+ * @constructor
+ */
+
+function ZeroTwo(a) {
+	if (a === 0 || a === 2)
+		return a += 7;
+	else
+		return a /= 10;
+}
+
+console.log(ZeroTwo(5));
+console.log(ZeroTwo(0));
+console.log(ZeroTwo(-3));
+console.log(ZeroTwo(2));
+
+/*Task 3 && ||*/
+
+/*Task 4 && ||*/
