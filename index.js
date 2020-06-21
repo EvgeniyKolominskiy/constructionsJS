@@ -269,4 +269,23 @@ console.log(ZeroTwo(2));
 
 /*Task 3 && ||*/
 
+/**
+ *
+ * @param num1
+ * @param num2
+ * @returns {number|*}
+ */
+
+function oneThree(num1, num2) {
+	if (num1 <= 1 && num2 >= 3) {
+		return num1 + num2;
+	} else {
+		return num1 - num2;
+	}
+}
+
+console.log(oneThree(1, 3));
+console.log(oneThree(0, 6));
+console.log(oneThree(3, 5));
+
 /*Task 4 && ||*/
