@@ -379,6 +379,13 @@ if (str1[0] === 'a') {
 
 /*Task 5 switch-case*/
 
+const str2 = '123456';
+
+if (str2[0] === '1' || str2[0] === '2' || str2[0] === '3') {
+	console.log('Да');
+} else {
+	console.log('Нет');
+}
 
 /*Task 6 switch-case*/
 
