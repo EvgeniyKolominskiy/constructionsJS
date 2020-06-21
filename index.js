@@ -98,6 +98,23 @@ console.log(biggerOrEqualToZero(-3));
 
 /*Task 5 if-else*/
 
+/**
+ *
+ * @param a
+ * @returns {boolean}
+ */
+
+function lessOrEqualToZero(a) {
+	if (a <= 0) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+console.log(lessOrEqualToZero(1));
+console.log(lessOrEqualToZero(0));
+console.log(lessOrEqualToZero(-3));
 
 /*Task 6 if-else*/
 
