@@ -198,3 +198,18 @@ if (test === true)
 	alert(true);
 else
 	alert(false);
+
+/*Task 2 boolean variables*/
+
+if (test !== true) {
+	alert(true);
+} else {
+	alert(false);
+}
+
+test = true;
+
+if (test !== true)
+	alert(true);
+else
+	alert(false);
