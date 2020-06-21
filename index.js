@@ -341,7 +341,17 @@ console.log(result);
 
 /*Task 2 switch-case*/
 
+const day = 12;
 
+if (day > 0 && day < 11) {
+	console.log('Первая декада');
+} else if (day > 10 && day < 21) {
+	console.log('Вторая декада');
+} else if (day > 20 && day < 32) {
+	console.log('Третья декада');
+} else {
+	console.log('You entered a wrong day number');
+}
 
 /*Task 3 switch-case*/
 
