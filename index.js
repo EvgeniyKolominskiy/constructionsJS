@@ -369,6 +369,13 @@ if (month === 12 || (month > 0 && month <= 2)) {
 
 /*Task 4 switch-case*/
 
+const str1 = 'abcde';
+
+if (str1[0] === 'a') {
+	console.log('Да');
+} else {
+	console.log('Нет');
+}
 
 /*Task 5 switch-case*/
 
