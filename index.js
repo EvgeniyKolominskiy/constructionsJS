@@ -35,3 +35,42 @@ function equalToZero(a) {
 console.log(equalToZero(1));
 console.log(equalToZero(0));
 console.log(equalToZero(-3));
+
+/*Task 2 if-else*/
+
+/**
+ *
+ * @param a
+ * @returns {boolean}
+ */
+
+function biggerThanZero(a) {
+	if (a > 0) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+console.log(biggerThanZero(1));
+console.log(biggerThanZero(0));
+console.log(biggerThanZero(-3));
+
+/*Task 3 if-else*/
+
+
+
+/*Task 4 if-else*/
+
+
+/*Task 5 if-else*/
+
+
+/*Task 6 if-else*/
+
+
+/*Task 7 if-else*/
+
+
+/*Task 8 if-else*/
+
