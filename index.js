@@ -138,6 +138,23 @@ console.log(notEqualToZero(-3));
 
 /*Task 7 if-else*/
 
+/**
+ *
+ * @param a
+ * @returns {boolean}
+ */
+
+function equalToTest(a) {
+	if (a === 'test') {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+console.log(equalToTest('test'));
+console.log(equalToTest('тест'));
+console.log(equalToTest(3));
 
 /*Task 8 if-else*/
 
