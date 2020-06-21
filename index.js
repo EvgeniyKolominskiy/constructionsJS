@@ -58,7 +58,23 @@ console.log(biggerThanZero(-3));
 
 /*Task 3 if-else*/
 
+/**
+ *
+ * @param a
+ * @returns {boolean}
+ */
 
+function lessThanZero(a) {
+	if (a < 0) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+console.log(lessThanZero(1));
+console.log(lessThanZero(0));
+console.log(lessThanZero(-3));
 
 /*Task 4 if-else*/
 
