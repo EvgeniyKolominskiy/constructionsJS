@@ -289,3 +289,17 @@ console.log(oneThree(0, 6));
 console.log(oneThree(3, 5));
 
 /*Task 4 && ||*/
+
+/**
+ *
+ * @param a
+ * @param b
+ * @returns {boolean}
+ */
+
+function twoEleven(a, b) {
+	if ((a > 2 && a < 11) || (b >= 6 && b < 14))
+		return true;
+	else
+		return false;
+}
