@@ -404,3 +404,11 @@ console.log('stringToNumberSum(\'321\') = ' + stringToNumberSum('321'));
 
 /*Task 7 switch-case*/
 
+const strNum = '543345';
+
+if ((Number(strNum[0]) + Number(strNum[1]) + Number(strNum[2])) === (Number(strNum[3]) + Number(strNum[4]) + Number(strNum[5]))) {
+	console.log('Да');
+} else {
+	console.log('Нет');
+}
+
