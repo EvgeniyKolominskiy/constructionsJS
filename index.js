@@ -389,5 +389,18 @@ if (str2[0] === '1' || str2[0] === '2' || str2[0] === '3') {
 
 /*Task 6 switch-case*/
 
+/**
+ *
+ * @param string
+ * @returns {number}
+ */
+
+function stringToNumberSum(string) {
+	return Number(string[0]) + Number(string[1]) + Number(string[2]);
+}
+
+console.log('stringToNumberSum(\'123\') = ' + stringToNumberSum('123'));
+console.log('stringToNumberSum(\'321\') = ' + stringToNumberSum('321'));
 
 /*Task 7 switch-case*/
+
